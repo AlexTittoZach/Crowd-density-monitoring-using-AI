@@ -19,10 +19,10 @@ IP_CAMERA_URL = "http://192.168.2.42:8080/video"
 model = YOLO("yolov8n.pt")  # Use a lightweight YOLOv8 model (e.g., yolov8n.pt)
 
 # Twilio credentials
-TWILIO_ACCOUNT_SID = "AC07b27799040c967676971358372abe34"  # Replace with your Twilio Account SID
-TWILIO_AUTH_TOKEN = "8670ef1964fa4e0e51bc9673477e3e60"    # Replace with your Twilio Auth Token
-TWILIO_PHONE_NUMBER = "+14632836768"  # Replace with your Twilio phone number
-TO_PHONE_NUMBER = "+919061722852"  # Replace with the recipient's phone number
+TWILIO_ACCOUNT_SID = ""  # Replace with your Twilio Account SID
+TWILIO_AUTH_TOKEN = ""    # Replace with your Twilio Auth Token
+TWILIO_PHONE_NUMBER = ""  # Replace with your Twilio phone number
+TO_PHONE_NUMBER = ""  # Replace with the recipient's phone number
 
 # Initialize Twilio client
 twilio_client = Client(TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN)
